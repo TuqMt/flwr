@@ -1,0 +1,64 @@
+/* 🌸 Основной хедер */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(90deg, #ffeef5, #ffdbe8);
+  box-shadow: 0 4px 10px rgba(255, 182, 193, 0.25);
+  z-index: 1000;
+  padding: 1rem 2rem;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* 🌷 Логотип */
+.logo {
+  font-family: "Poppins", sans-serif;
+  color: #e91e63;
+  font-weight: 700;
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+  text-shadow: 0 1px 3px rgba(233, 30, 99, 0.2);
+}
+
+/* 🌺 Навигация */
+.nav {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-link {
+  color: #6b4f4f;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.05rem;
+  padding: 6px 10px;
+  border-radius: 8px;
+  transition: all 0.25s ease;
+}
+
+.nav-link:hover {
+  background: #e91e63;
+  color: #fff;
+  box-shadow: 0 3px 8px rgba(233, 30, 99, 0.3);
+}
+
+/* 🌼 Общий фон страницы */
+body {
+  background: linear-gradient(180deg, #fff7fa, #ffe6ef);
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  min-height: 100vh;
+}
+
+/* Отступ для контента */
+main {
+  padding-top: 100px;
+}
