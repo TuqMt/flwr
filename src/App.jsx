@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
-import Main from "./components/Main";
+import Main from "./components/main";
 import Cart from "./components/Cart";
 import Profile from "./components/Profile";
 import "./static/Main.css";
